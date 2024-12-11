@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { useAuthStore } from "../store/useAuthStore";
 import toast from "react-hot-toast";
 
-const LoginPage = () => {
+const LogInPage = () => {
   const { login, isLoggingIn } = useAuthStore();
 
   const [formData, setFormData] = useState({
@@ -126,4 +126,4 @@ const LoginPage = () => {
   );
 };
 
-export default LoginPage;
+export default LogInPage;
