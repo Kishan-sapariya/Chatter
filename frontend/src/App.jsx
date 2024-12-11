@@ -2,7 +2,7 @@ import Navbar from "./component/Navbar";
 
 import HomePage from "./pages/Home";
 import SignupPage from "./pages/SignupPage";
-import LoginPage from "./pages/LoginPage";
+import LoginPage from "./pages/loginPage";
 import SettingsPage from "./pages/SettingPage";
 import ProfilePage from "./pages/ProfilePage";
 
